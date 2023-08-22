@@ -7,8 +7,8 @@ public class Auto extends Vehiculo {
     public Auto() {
     }
 
-    public Auto(String placa, String marca, String referencia, String modelo, int num_ruedas, int num_puertas, boolean is_gasolina) {
-        super(placa, marca, referencia, modelo, num_ruedas);
+    public Auto(String tipo_vehiculo, String placa, String marca, String referencia, String modelo, int num_ruedas, double precio, boolean disponible, int num_puertas, boolean is_gasolina) {
+        super(tipo_vehiculo, placa, marca, referencia, modelo, num_ruedas, precio, disponible);
         this.num_puertas = num_puertas;
         this.is_gasolina = is_gasolina;
     }

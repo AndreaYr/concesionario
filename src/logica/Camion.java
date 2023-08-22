@@ -6,8 +6,8 @@ public class Camion extends Vehiculo{
     public Camion(){
     }
 
-    public Camion(String placa, String marca, String referencia, String modelo, int num_ruedas, String cap_carga){
-        super(placa, marca, referencia, modelo, num_ruedas);
+    public Camion(String tipo_vehiculo, String placa, String marca, String referencia, String modelo, int num_ruedas, double precio, boolean disponible, String cap_carga){
+        super(tipo_vehiculo, placa, marca, referencia, modelo, num_ruedas, precio, disponible);
         this.cap_carga = cap_carga;
     }
 
